@@ -20,12 +20,12 @@ Introduction
 (DOE) <https://en.wikipedia.org/wiki/Design_of_experiments>`__ is an
 important activity for any scientist, engineer, or statistician planning
 to conduct experimental analysis. This exercise has become **critical in
-this age of rapidly expanding field of data science and associated
+this age of the rapidly expanding field of data science and associated
 statistical modeling and machine learning**. A well-planned DOE can give
-a researcher meaningful data set to act upon with optimal number of
+a researcher a meaningful data set to act upon with an optimal number of
 experiments preserving critical resources.
 
-   After all, aim of Data Science is essentially to conduct highest
+   After all, the aim of Data Science is essentially to conduct highest
    quality scientific investigation and modeling with real world data.
    And to do good science with data, one needs to collect it through
    carefully thought-out experiment to cover all corner cases and reduce
@@ -35,7 +35,7 @@ experiments preserving critical resources.
 How to use it?
 --------------
 
-What supporitng packages are required?
+What supporting packages are required?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 First make sure you have all the necessary packages installed. You can
@@ -67,7 +67,7 @@ Quick start
 ~~~~~~~~~~~
 
 Let’s say you have a design problem with the following table for the
-parameters range. Imagine this as a generic example of a checmical
+parameters range. Imagine this as a generic example of a chemical
 process in a manufacturing plant. You have 3 levels of ``Pressure``, 3
 levels of ``Temperature``, 2 levels of ``FlowRate``, and 2 levels of
 ``Time``.
@@ -126,11 +126,11 @@ Latin Hypercube design
 
 Sometimes, a set of **randomized design points within a given range**
 could be attractive for the experimenter to asses the impact of the
-process variables on the output. `Monte Carlo
-simulations <https://en.wikipedia.org/wiki/Monte_Carlo_method>`__ are
+process variables on the output. `Monte Carlo simulations 
+<https://en.wikipedia.org/wiki/Monte_Carlo_method>`__ are a
 close example of this approach.
 
-However, a Latin Hypercube design is better choice for experimental
+However, a Latin Hypercube design is the better choice for experimental
 design rather than building a complete random matrix as it tries to
 subdivide the sample space in smaller cells and choose only one element
 out of each subcell. This way, a more **uniform spreading’ of the random
@@ -173,8 +173,8 @@ idea!
 
 .. image:: https://raw.githubusercontent.com/tirthajyoti/doepy/master/images/sed_3d.png
 
-Other functions to try on
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Other functions to try
+~~~~~~~~~~~~~~~~~~~~~~
 
 Try any one of the following designs,
 
@@ -257,9 +257,9 @@ Limitation of the foundation packages used
 
 Both the core packages, which act as foundations to this repo, are not
 complete in the sense that they do not cover all the necessary functions
-to generate DOE table that a design engineer may need while planning an
-experiment. Also, they offer only low-level APIs in the sense that the
-standard output from them are normalized numpy arrays. It was felt that
+to generate a DOE table that a design engineer may need while planning an
+experiment. Also, they offer only low-level APIs in the sense that their
+standard output consists of normalized numpy arrays. It was felt that
 users, who may not be comfortable in dealing with Python objects
 directly, should be able to take advantage of their functionalities
 through a simplified user interface.
@@ -372,7 +372,7 @@ analysis, financial analytics*, etc…
 Options for open-source DOE builder package in Python?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Unfortunately, majority of the state-of-the-art DOE generators are part
+Unfortunately, the majority of the state-of-the-art DOE generators are part
 of commercial statistical software packages like `JMP
 (SAS) <https://www.jmp.com/>`__ or
 `Minitab <www.minitab.com/en-US/default.aspx>`__. However, a researcher
